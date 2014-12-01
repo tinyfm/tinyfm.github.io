@@ -131,3 +131,13 @@ i {
   font-weight: 300;
   letter-spacing: 1px;
 }
+
+/* USER */
+a {
+  text-decoration: underline;
+  color: #7B7B7B;
+}
+.img-responsive {
+  margin-top: -5em;
+  margin-left: 5em;
+}
