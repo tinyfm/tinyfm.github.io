@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Your local experiences on air
+layout: homepage
+title: tinymf — for local experiences on air
 ---
 
 # Use cases
@@ -19,7 +19,7 @@ in addition to not being able to speak them.
  
 
 Tinyfm's playlist is controlled by the local community itself. Its tiny spatial range 
- is **ideal for a community café** or a neighbourhood.
+ is **ideal for a community café** or a **neighbourhood**.
 
 ## Sending the radio experience to remote places
 

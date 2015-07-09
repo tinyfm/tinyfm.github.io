@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include navbar.html %}
+  {% include header.html %}
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>
+            <img src="assets/photos/2014-12-01 08.21.12 1-thumb.jpg" class="img-responsive img-thumbnail" alt=""/>
+          </p>
+        </div>
+
+        <div class="col-sm-6">
+          <h1>tinyfm in action</h1>
+
+          <p>
+            tinyfm is an implementation of the
+            <a href="http://myhowtosandprojects.blogspot.co.uk/2014/04/raspberry-pi-make-your-own-pirate-radio.html">Raspberry Pi FM transmitter hack</a>
+            and proposes 3 layers of software:
+          </p>
+
+          <ul>
+            <li>a <strong>mobile interface</strong> to interact with tinyfm;</li>
+            <li>a <strong>backend layer</strong> to manage the playback;</li>
+            <li>a close range FM transmitter and Wi-Fi hub.</li>
+          </ul>
+
+          <p>
+            tinyfm can only be controlled by whom can listen to it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="content">
+    <div class="row">
+      <main class="col-md-12">
+        {{ page.content | markdownify }}
+      </main>
+    </div>
+  </div>
+
+
+  {% include footer.html %}
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
