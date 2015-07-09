@@ -1,0 +1,8 @@
+url: http://tinyfm.github.io
+name: tinyfm — for local radio experiences on air
+description: tinyfm is a Raspberry Pi hack to broadcast digital podcasts to analog radio devices in a narrow range.
+permalink: /:year/:title/
+paginate: 10
+paginate_path: "/page/:num/"
+timezone: Europe/London
+exclude: [vendor]
